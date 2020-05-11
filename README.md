@@ -5,5 +5,5 @@ to your Mac using homebrew. To do it, follow the instructions below:
 
 1. Install the `brew` CLI from https://brew.sh/
 2. Run ``xcode-select --install`` in the terminal and wait until it finishes.
-3. Finally, run ``brew install bzzzzzz/remote/remote``.
+3. Finally, run ``brew install remote-cli/remote/remote``.
 4. To validate that tool was installed correctly try executing ``remote -h``
