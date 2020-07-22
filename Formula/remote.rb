@@ -3,8 +3,8 @@ class Remote < Formula
 
   desc "Work with remote hosts seamlessly. Code local, build or execute commands remotely."
   homepage "https://github.com/remote-cli/remote"
-  url "https://files.pythonhosted.org/packages/16/49/b5048bc3110450e6f7cab98423d500d3e6c6c9a526d847dd9093ce407138/remote-exec-1.5.0.tar.gz"
-  sha256 "a6c7d5cd826149c05ceb9f9c6aec1f8f588764eaee61a5eaf5adac12a083f4ef"
+  url "https://files.pythonhosted.org/packages/6a/4a/05a8fdb854f5bb1a5e4948931d1dffc5658e352d8e1f06b85b153d08b332/remote-exec-1.6.0.tar.gz"
+  sha256 "ed847c35b57f68cc70ee32bcf5fd41e2c2484081f2505c2403f15332c88b9b85"
 
   depends_on "python3"
 
@@ -21,6 +21,16 @@ class Remote < Formula
   resource "pydantic" do
     url "https://files.pythonhosted.org/packages/97/24/f8e05f16433b3b5332b3e2cf9b4625692c09432c7a18aa1d735fecb80904/pydantic-1.5.1.tar.gz"
     sha256 "f0018613c7a0d19df3240c2a913849786f21b6539b9f23d85ce4067489dfacfa"
+  end
+
+  resource "watchdog" do
+    url "https://files.pythonhosted.org/packages/0e/06/121302598a4fc01aca942d937f4a2c33430b7181137b35758913a8db10ad/watchdog-0.10.3.tar.gz"
+    sha256 "4214e1379d128b0588021880ccaf40317ee156d4603ac388b9adcf29165e0c04"
+  end
+
+  resource "pathtools" do
+    url "https://files.pythonhosted.org/packages/e7/7f/470d6fcdf23f9f3518f6b0b76be9df16dcc8630ad409947f8be2eb0ed13a/pathtools-0.1.2.tar.gz"
+    sha256 "7c35c5421a39bb82e58018febd90e3b6e5db34c5443aaaf742b3f33d4655f1c0"
   end
 
   def install
