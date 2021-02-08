@@ -3,8 +3,8 @@ class Remote < Formula
 
   desc "Work with remote hosts seamlessly. Code local, build or execute commands remotely."
   homepage "https://github.com/remote-cli/remote"
-  url "https://files.pythonhosted.org/packages/eb/a3/452e10acefc619be9fd0420c50f1dbccad8d3c430351a473df211d359997/remote-exec-1.10.0.tar.gz"
-  sha256 "995be66e12a1511c117080b8aa1bea933c9aecbb1771b100af597bc30a92866d"
+  url "https://files.pythonhosted.org/packages/8f/b3/759d650194b2ff76fa9da1be2cbeab93bb016dfe13d0614288e82a44569f/remote-exec-1.10.1.tar.gz"
+  sha256 "7b335e259254be8441df837a3c5295047f4f5f48133afa59c0d84c86b98dbe26"
 
   depends_on "python3"
 
